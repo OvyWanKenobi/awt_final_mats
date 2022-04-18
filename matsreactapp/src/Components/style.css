@@ -1,0 +1,73 @@
+
+
+#bg-vdo{
+width: 1400px;
+ height: 580px;
+ object-fit: cover;
+
+ 
+}
+
+#nav{
+   
+    height: 70px;   
+}
+
+#link {
+    color: rgb(228, 228, 228);
+    padding: 20px; 
+    font-size: large;
+   
+}
+
+#link:hover{
+    background-color: darkviolet;
+}
+
+
+.logincontent{
+    
+    padding: 20px;
+}
+
+#logindiv{
+    position:absolute;
+    width:500px; 
+    margin-top:100px;
+    text-align: center;
+    background-color: rgba(52, 46, 53, 0.3);
+    backdrop-filter: blur(6px);
+    padding: 50px 30px 40px 30px;
+    margin-left: 700px;
+    border-radius: 20px;
+    box-shadow: 40px 40px rgba(3, 3, 10, 0.767);
+  
+}
+
+#scroll{
+    
+}
+
+
+#loginh2{
+    color:rgb(255, 255, 255);
+     margin-bottom: 40px;
+     filter:unset;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 40px;
+     font-weight: bold;
+     text-shadow: 5px 4px rgba(59, 59, 59, 0.5);
+   
+}
+
+#regh2{
+    color:rgb(255, 255, 255);
+     margin-bottom: 20px;
+     filter:unset;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 40px;
+     font-weight: bold;
+     text-shadow: 5px 4px rgba(59, 59, 59, 0.5);
+   
+}
+

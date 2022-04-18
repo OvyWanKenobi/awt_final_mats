@@ -1,0 +1,50 @@
+http://127.0.0.1:8000/api/studentcourse/list
+http://127.0.0.1:8000/api/studentcourse/get/
+http://127.0.0.1:8000/api/studentcourse/add
+http://127.0.0.1:8000/api/studentcourse/update/{id}
+http://127.0.0.1:8000/api/studentcourse/delete/{id}
+
+http://127.0.0.1:8000/api/quiz/list
+http://127.0.0.1:8000/api/quiz/get/{id}
+http://127.0.0.1:8000/api/quiz/add
+http://127.0.0.1:8000/api/quiz/update/{id}
+http://127.0.0.1:8000/api/quiz/delete/{id}
+
+http://127.0.0.1:8000/api/topics/list
+http://127.0.0.1:8000/api/topics/get/
+http://127.0.0.1:8000/api/topics/add
+http://127.0.0.1:8000/api/topics/update/{id}
+http://127.0.0.1:8000/api/topics/delete/{id}
+
+
+
+{
+        "st_id": 1,
+        "c_id": 2,
+        "tot_topic": 3,
+        "complete_topic": 1,
+        "sc_status": "complete"
+    }
+
+
+{
+    "q_quesnumber": 3,
+    "q_ques": "WHat is P in OOP?",
+    "q_option1": "PPPP",
+    "q_option2": "Php",
+    "q_option3": "People",
+    "q_option4": "Programming",
+    "q_ans": "Programming",
+    "q_topic_fk": 3
+    }
+
+
+{
+    "t_number": 1,
+    "t_title": "OOP 1 aaaaaaaa| Introduction & Concepts ",
+    "t_video": null,
+    "t_material": "If you’re fulfill its mission to provide a great public education for every student.\r\n\r\n",
+    "t_course_fk": 1,
+    "t_publicviewlock": "no"
+}
+

@@ -1,0 +1,44 @@
+Public page : all intructors, get instructors by dept, view an instructor
+http://127.0.0.1:8000/api/instructors
+http://127.0.0.1:8000/api/instructorsbydept/1
+http://127.0.0.1:8000/api/getinstructor/5
+
+Homepage : allcourses  by logged instructors 
+http://127.0.0.1:8000/api/coursesbyins/5
+
+View a course: course details, topics list in course, 
+http://127.0.0.1:8000/api/getcourse/5
+
+View a topic : topic details, quizzes in the topic, course topic belog to
+http://127.0.0.1:8000/api/gettopic/5
+
+Create course : 
+http://127.0.0.1:8000/api/addcourse
+
+Create topic:
+http://127.0.0.1:8000/api/topic/addtopic
+
+Create quiz:
+http://127.0.0.1:8000/api/quiz/addquiz
+
+Edit,delete course:
+http://127.0.0.1:8000/api/editcourse/4
+http://127.0.0.1:8000/api/deletecourse/4
+
+Edit,delete topic:
+http://127.0.0.1:8000/api/edittopic/15
+http://127.0.0.1:8000/api/deletetopic/15
+
+Edit,delete quiz:
+http://127.0.0.1:8000/api/editquiz/3
+http://127.0.0.1:8000/api/deletequiz/3
+
+Forum:
+http://127.0.0.1:8000/api/forums
+http://127.0.0.1:8000/api/forum/{id}
+
+Profile: 
+edit profile same as getinstructor
+http://127.0.0.1:8000/api/getinstructor/5
+http://127.0.0.1:8000/api/editinstructor/3
+
